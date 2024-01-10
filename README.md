@@ -6,4 +6,5 @@ All the code is written following instructions given in the website.
 The Projects are as follows;  
     1. Cat Photo App 2nd January 2024  
     2. Cafe menu  
-    3. 
+    3. CSS markers  
+    4. Registration forms  
