@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0" >
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <p>Please fill out this form with the required information</p>
+        <form action="https://register-demo.freecodecamp.org" method="POST">
+            <fieldset>
+                <label for="first-name">Enter Your FirstName: <input type="text" id="first-name" required/></label>
+                <label for="last-name">Enter Your LastName: <input type="text"  id="last-name" required></label>
+                <label for="email">Enter Your Email: <input type="email"  id="email" required/></label>
+                <label for="new-password">Create a new password: <input type="password"  id="new-password" pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+            <fieldset>
+                <label for="account-type"> <input type="radio" id="account-type" name="account-type">  Personal</label>
+                <label for="account-type"> <input type="radio" id="account-type" name="account-type">  Business</label>
+            </fieldset>
+            <fieldset></fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
